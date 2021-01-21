@@ -49,6 +49,7 @@ public class Connection {
             while((linha = bufferedReader.readLine()) != null){
                 buffer.append(linha);
             }
+            
             bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();
